@@ -33,7 +33,7 @@ body {
 
 .typed-cursor
 {
-  font-size: 10vmin;
+  font-size: 8vmin;
   -webkit-animation: textFadeIn 1s linear 4s  alternate both;
   font-weight: bold;
   text-align: center;
@@ -51,7 +51,7 @@ body {
     line-height: 100px;
     height: 90px;
     margin-top: -50px;
-    font-size: 90px;
+    font-size: 8vmin;
     width: 100%;
     text-align: center;
     color: transparent;
@@ -135,6 +135,7 @@ p .element {
     overflow: hidden;
     position: initial;
     top: 0;
+    left: 10px;
 }
 
 
@@ -169,4 +170,15 @@ html {
 
 
 
+@media screen and (max-width: 746px) {
+.typed-text  {
+    font-size: 7vmin;
+}
 
+
+.typed-cursor
+{
+  font-size: 7vmin;
+}
+
+}
