@@ -135,7 +135,7 @@ p .element {
     overflow: hidden;
     position: initial;
     top: 0;
-    left: 10px;
+    left: 10px !important;
 }
 
 
