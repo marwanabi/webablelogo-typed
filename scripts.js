@@ -1,6 +1,9 @@
 
 //--typed.js--
 
+
+$(document).ready(function(){ 
+
 $(function(){
       $(".element").typed({
         strings: ["Hi Murwe Hi Murwe Hi Murwe "],
@@ -25,7 +28,7 @@ setTimeout(function() {
     $("#particle-slider").css('position', 'absolute');
 }, 2999.9)
 
-
+}) 
 
 
 //--star animation
